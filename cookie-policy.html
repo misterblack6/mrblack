@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Política de Cookies</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="splash-screen">
+        <img src="logo.png" alt="Logo">
+    </div>
+
+    <header>
+        <div class="logo-container">
+            <img src="logo.png" alt="Logo" class="logo">
+            <h1>Mrblack</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="http://mrblackyt.free.nf/index.html">Inicio</a></li>
+                <li><a href="http://mrblackyt.free.nf/politica-privacidad">Políticas de Privacidad</a></li>
+                <li><a href="http://mrblackyt.free.nf/aviso-legal.html">Aviso Legal</a></li>
+                <li><a href="cookie-policy.html">Política de Cookies</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="intro">
+    <div class="intro-container">
+        <h1>Política de Cookies</h1>
+        <p>Esta página web utiliza cookies para mejorar la experiencia del usuario. Las cookies son pequeños archivos de texto que se almacenan en su dispositivo cuando visita nuestro sitio web. Las cookies nos ayudan a analizar el tráfico del sitio, personalizar el contenido y los anuncios, y proporcionar funciones de redes sociales. También compartimos información sobre el uso de nuestro sitio con nuestros socios de redes sociales, publicidad y análisis, quienes pueden combinarla con otra información que les haya proporcionado o que hayan recopilado a partir del uso de sus servicios.</p>
+        <p>Al utilizar nuestro sitio web, usted acepta el uso de cookies de acuerdo con nuestra <a href="privacy-policy.html">Política de Privacidad</a>.</p>
+        <p>Puede controlar y/o eliminar las cookies según desee. Para obtener más información, consulte <a href="https://www.aboutcookies.org/">www.aboutcookies.org</a>. Puede eliminar todas las cookies ya almacenadas en su computadora y configurar la mayoría de los navegadores para evitar que se guarden. Sin embargo, es posible que tenga que ajustar manualmente algunas preferencias cada vez que visite un sitio y algunas funciones y servicios pueden no funcionar correctamente.</p>
+    </section>
+    </div>
+
+    <footer>
+        <p>Copyright (C) Mrblack Creations; 2022-2024. Todos los Derechos Reservados</p>
+        <div class="social-icons">
+            <a href="https://instagram.com/mrblackfeliz"><img src="instagram-icon.png" alt="Instagram"></a>
+            <a href="https://twitter.com/@ElMrblack_88"><img src="twitter.png" alt="Twitter"></a>
+            <a href="https://youtube.com/Mrblack_88"><img src="youtube-icon.png" alt="YouTube"></a>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            var splashScreen = document.getElementById("splash-screen");
+            setTimeout(function() {
+                splashScreen.classList.add("fade-out");
+                setTimeout(function() {
+                    splashScreen.style.display = "none";
+                }, 1000);
+            }, 2000);
+        });
+    </script>
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mrblack's Web</title>
+    <link id="theme-stylesheet" rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="logo.png" />
+</head>
+<body>
+    <div id="splash-screen">
+        <h1>Mrblack</h1>
+    </div>
+    <header>
+        <div class="log-contaoiner">
+            <img src="logo.png" alt="Logo" class="logo">
+            <h1>Mrblack</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="aviso-legal.html">Aviso Legal</a></li>
+                <li><a href="politica-privacidad.html">Política de Privacidad</a></li>
+                <li><a href="cookie-policy.html">Política de Cookies</a></li>
+                <li><a href="index_en.html">English</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="intro">
+            <div class="intro-container">
+                <img id="intro-image" src="TheOpenApps_light.png" alt="Imagen" class="intro-image">
+                <div class="intro-text">
+                    <h2>¡Hola!, bienvenido a Mrblack's Web</h2>
+                    <p>La página oficial de Mrblack, aquí podrás encontrar la app que llevo desarrollando desde hace ya más de 2 años llamada The Open Apps™ una aplicación la cual ya va por la ¡versión 2.0! Es por eso que he creado esta página, para promocionar mi app, ya que nadie la ha usado.</p>
+                    <h3>Requisitos mínimos</h3>
+                    <ul>
+                        <li>Windows 7 32 o 64 Bits</li>
+                        <li>Cualquier procesador del 2005 en adelante</li>
+                        <li>No se requiere de GPU dedicada o integrada</li>
+                        <li>Disco HDD o SSD</li>
+                    </ul>
+                    <button class="download-btn" onclick="downloadFile()">Descargar</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <p>Copyright (C) Mrblack Creations; 2022-2024. Todos los Derechos Reservados</p>
+        <div class="social-icons">
+            <a href="https://www.instagram.com/Mrblackfeliz" target="_blank"><img src="instagram-icon.png" alt="Instagram"></a>
+            <a href="https://twitter.com/ElMrblack_88" target="_blank"><img src="twitter.png" alt="Twitter"></a>
+            <a href="https://www.youtube.com/@Mrblack_88" target="_blank"><img src="youtube-icon.png" alt="YouTube"></a>
+ <div class="preferences">
+            <label for="theme">Tema:</label>
+                <select id="theme-selector">
+                    <option value="dark">Tema Oscuro</option>
+                    <option value="light">Tema Claro</option>
+                </select>
+            <label for="language">Idioma:</label>
+                <select id="language-select" onchange="changeLanguage(this.value)">
+                    <option value="es">Español</option>
+                    <option value="en">English</option>
+                </select>
+        </div>
+    </footer>
+    <div id="cookieConsent" class="cookie-consent">
+        <p>Este sitio web utiliza cookies para mejorar la experiencia del usuario. <button id="acceptCookies">Aceptar</button></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
