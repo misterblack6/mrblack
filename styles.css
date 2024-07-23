@@ -40,6 +40,23 @@ h1 {
     margin: 0;
 }
 
+.selectors {
+    display: flex;
+    gap: 10px;
+}
+
+.selectors select {
+    background-color: #111;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.selectors select:hover {
+    background-color: #222;
+}
+
 nav ul {
     list-style: none;
     margin: 0;
